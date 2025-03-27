@@ -23,6 +23,6 @@ A live HTML/CSS/JavaScript editor with real-time preview and error detection, bu
 
 ## 🔧 Setup (for local development)
 ```bash
-git clone https://github.com/yourusername/code-playground.git
+git clone https://github.com/Keerthivallabhaneni2k3/Interactive-Code-Playground.git
 cd code-playground
 open index.html  # Opens in default browser
