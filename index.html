@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Code Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Code Playground</h1>
+    </header>
+
+    <div class="container">
+        <div class="editor-container">
+            <div class="editor-box">
+                <div class="editor-header">HTML</div>
+                <textarea id="html-code" placeholder="Enter HTML code here..."></textarea>
+            </div>
+            <div class="editor-box">
+                <div class="editor-header">CSS</div>
+                <textarea id="css-code" placeholder="Enter CSS code here..."></textarea>
+            </div>
+            <div class="editor-box">
+                <div class="editor-header">JavaScript</div>
+                <textarea id="js-code" placeholder="Enter JavaScript code here..."></textarea>
+            </div>
+            <div class="error-console" id="error-console"></div>
+        </div>
+        <div class="preview-container">
+            <div class="preview-header">Live Preview</div>
+            <iframe id="live-preview"></iframe>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="run-btn">Run Code</button>
+        <button id="toggle-theme">Toggle Dark Mode</button>
+        <button id="clear-btn">Clear All</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
